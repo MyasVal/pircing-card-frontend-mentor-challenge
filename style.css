@@ -22,17 +22,18 @@ html {
   }
   
   #card {
-    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
-    border-radius: 5px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 7px;
     overflow: hidden;
     width: 600px;
-    height: 400px;
+    height: 420px;
   }
   
   #top-section {
     width: 100%;
     height: 45%;
-    padding: 25px;
+    padding: 30px;
+    
   }
   
   #bottom-section {
@@ -47,16 +48,18 @@ html {
     height: 100%;
     vertical-align: top;
     background-color: #2ab2af;
-    padding: 25px;
+    padding: 30px;
+    
   }
   
   #bottom-right-section {
     display: inline-block;
     width: 50%;
     height: 100%;
-    background-color: #2ebfbd;
+    background-color: #4ABEBD;
     vertical-align: top;
-    padding: 25px;
+    padding: 30px
+    
   }
   
   #top-section h2 {
@@ -71,15 +74,17 @@ html {
   
   #top-section p {
     color: #98a6bd;
+    line-height: 25px;
   }
   
   button {
     color: white;
     background-color: #c0df34;
     border: none;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     border-radius: 5px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
   }
   
   button:hover {
@@ -99,7 +104,7 @@ html {
   
   #bottom-left-section p {
     font-size: 0.8rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   
   #price-frequency,
@@ -124,4 +129,5 @@ html {
     list-style: none;
     font-size: 0.8rem;
     opacity: 0.8;
+    line-height: 20px;
   }
